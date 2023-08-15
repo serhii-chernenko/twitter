@@ -1,8 +1,6 @@
-# Script to automatically unfollow all not-mutual followings on Twitter.
-# Скрипт для автоматичної відписки від людей, які на вас не підписані у Твіттері.
+# Script to automatically unfollow all not-mutual followings on Twitter.<br/>Скрипт для автоматичної відписки від людей, які на вас не підписані у Твіттері.
 
-## How to use
-## Як використовувати
+## How to use<br/>Як використовувати
 
 1. Open Twitter in a browser and go to the page Followings: https://twitter.com/username/following. Replace `username` with your username in the link.<br/>
 Відкрийте Твіттер у браузері та перейдіть до сторінки Підписок: https://twitter.com/username/following. Заменіть `username` на ваш фактичний юзернейм у посиланні.
