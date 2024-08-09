@@ -41,6 +41,7 @@ const twitterUnfollowAllWithoutMutualSubscription = async () => {
         if (isFollowMe) continue;
 
         button.click();
+        await delay(50);
 
         const confirmationButton = document.querySelector('[data-testid="confirmationSheetConfirm"]');
 
