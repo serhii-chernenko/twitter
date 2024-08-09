@@ -1,4 +1,4 @@
-const delay = () => new Promise(proceed => setTimeout(proceed, 2000));
+const delay = (freeze = 2000) => new Promise(proceed => setTimeout(proceed, freeze));
 
 const scrollDown = async () => {
     const prevScrollTop = document.documentElement.scrollTop;
@@ -23,7 +23,7 @@ const twitterUnfollowAllWithoutMutualSubscription = async () => {
         return console.log('%cList is empty!', 'color:red');
     }
 
-    for (const button of Array.from(unfollowButtons)) {
+    for await (const button of Array.from(unfollowButtons)) {
         const spans = button.parentElement.previousElementSibling.querySelectorAll('span');
 
         if (!spans.length) continue;
